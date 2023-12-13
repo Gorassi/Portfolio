@@ -17,7 +17,7 @@
     background: black;
     transform: rotate(25deg);
     z-index: 0;
-    /* opacity: 0.5; */
+    /* opacity: 0.7; */
 }
 .greeting{
     text-align: center;
@@ -315,6 +315,9 @@ img{
 .image-page_3,
 .img1{
     z-index: 2;
+}
+.img1:hover{
+    transform: scale(1.5);
 }
 .text_page-3{
     color: black;
